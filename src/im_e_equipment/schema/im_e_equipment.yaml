@@ -1066,17 +1066,6 @@ classes:
         multivalued: false
         range: string
         required: false
-      alias_name:
-        description: "The aliasName is free text human readable name of the object\
-          \ alternative to IdentifiedObject.name. It may be non unique and may not\
-          \ correlate to a naming hierarchy.\r\nThe attribute aliasName is retained\
-          \ because of backwards compatibility between CIM relases. It is however\
-          \ recommended to replace aliasName with the Name class as aliasName is planned\
-          \ for retirement at a future time.\r\n\r\n"
-        slot_uri: cim:IdentifiedObject.aliasName
-        multivalued: false
-        range: string
-        required: false
       names:
         description: All names of this identified object.
         slot_uri: cim:IdentifiedObject.Names
