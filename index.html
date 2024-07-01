@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#im-e-equipment" class="md-skip">
+        <a href="#equipment-vocabulary" class="md-skip">
           Skip to content
         </a>
       
@@ -383,10 +383,10 @@
   </a>
 
 
-<h1 id="im-e-equipment">im-e-equipment</h1>
-<p>Informatiemodel voor het NBNLES Equipment Profile.</p>
-<p>URI: https://w3id.org/Netbeheer-Nederland/im-e-equipment</p>
-<p>Name: im-e-equipment</p>
+<h1 id="equipment-vocabulary">Equipment Vocabulary</h1>
+<p>This vocabulary describes the equipment profile from NBNLES.</p>
+<p>URI: http://data.netbeheernederland.nl/im-e-equipment/version#1.0.0</p>
+<p>Name: EquipmentProfile</p>
 <h2 id="classes">Classes</h2>
 <table>
 <thead>
@@ -397,16 +397,188 @@
 </thead>
 <tbody>
 <tr>
+<td><a href="ACDCTerminal/">ACDCTerminal</a></td>
+<td>An electrical connection point (AC or DC) to a piece of conducting equipment</td>
+</tr>
+<tr>
+<td><a href="ACLineSegment/">ACLineSegment</a></td>
+<td>A wire or combination of wires, with consistent electrical characteristics, b...</td>
+</tr>
+<tr>
+<td><a href="ActivePower/">ActivePower</a></td>
+<td>Product of RMS value of the voltage and the RMS value of the in-phase compone...</td>
+</tr>
+<tr>
+<td><a href="ApparentPower/">ApparentPower</a></td>
+<td>Product of the RMS value of the voltage and the RMS value of the current</td>
+</tr>
+<tr>
+<td><a href="BaseVoltage/">BaseVoltage</a></td>
+<td>Defines a system base voltage which is referenced</td>
+</tr>
+<tr>
+<td><a href="Bay/">Bay</a></td>
+<td>A collection of power system resources (within a given substation) including ...</td>
+</tr>
+<tr>
+<td><a href="Breaker/">Breaker</a></td>
+<td>A mechanical switching device capable of making, carrying, and breaking curre...</td>
+</tr>
+<tr>
+<td><a href="BusbarSection/">BusbarSection</a></td>
+<td>A conductor, or group of conductors, with negligible impedance, that serve to...</td>
+</tr>
+<tr>
+<td><a href="Conductance/">Conductance</a></td>
+<td>Factor by which voltage must be multiplied to give corresponding power lost f...</td>
+</tr>
+<tr>
+<td><a href="ConductingEquipment/">ConductingEquipment</a></td>
+<td>The parts of the AC power system that are designed to carry current or that a...</td>
+</tr>
+<tr>
+<td><a href="Conductor/">Conductor</a></td>
+<td>Combination of conducting material with consistent electrical characteristics...</td>
+</tr>
+<tr>
+<td><a href="ConnectivityNode/">ConnectivityNode</a></td>
+<td>Connectivity nodes are points where terminals of AC conducting equipment are ...</td>
+</tr>
+<tr>
+<td><a href="ConnectivityNodeContainer/">ConnectivityNodeContainer</a></td>
+<td>A base class for all objects that may contain connectivity nodes or topologic...</td>
+</tr>
+<tr>
+<td><a href="Connector/">Connector</a></td>
+<td>A conductor, or group of conductors, with negligible impedance, that serve to...</td>
+</tr>
+<tr>
+<td><a href="CurrentFlow/">CurrentFlow</a></td>
+<td>Electrical current with sign convention: positive flow is out of the conducti...</td>
+</tr>
+<tr>
+<td><a href="Disconnector/">Disconnector</a></td>
+<td>A manually operated or motor operated mechanical switching device used for ch...</td>
+</tr>
+<tr>
+<td><a href="EnergyConnection/">EnergyConnection</a></td>
+<td>A connection of energy generation or consumption on the power system model</td>
+</tr>
+<tr>
+<td><a href="EnergyConsumer/">EnergyConsumer</a></td>
+<td>Generic user of energy - a  point of consumption on the power system model</td>
+</tr>
+<tr>
+<td><a href="Equipment/">Equipment</a></td>
+<td>The parts of a power system that are physical devices, electronic or mechanic...</td>
+</tr>
+<tr>
+<td><a href="EquipmentContainer/">EquipmentContainer</a></td>
+<td>A modelling construct to provide a root class for containing equipment</td>
+</tr>
+<tr>
 <td><a href="IdentifiedObject/">IdentifiedObject</a></td>
-<td>Represents a IdentifiedObject</td>
+<td>This is a root class to provide common identification for all classes needing...</td>
 </tr>
 <tr>
-<td><a href="IdentifiedObjectCollection/">IdentifiedObjectCollection</a></td>
-<td>A holder for IdentifiedObject objects</td>
+<td><a href="Junction/">Junction</a></td>
+<td>A point where one or more conducting equipments are connected with zero resis...</td>
 </tr>
 <tr>
-<td><a href="NamedThing/">NamedThing</a></td>
-<td>A generic grouping for any identifiable entity</td>
+<td><a href="Length/">Length</a></td>
+<td>Unit of length</td>
+</tr>
+<tr>
+<td><a href="Line/">Line</a></td>
+<td>Contains equipment beyond a substation belonging to a power transmission line</td>
+</tr>
+<tr>
+<td><a href="LoadBreakSwitch/">LoadBreakSwitch</a></td>
+<td>A mechanical switching device capable of making, carrying, and breaking curre...</td>
+</tr>
+<tr>
+<td><a href="Name/">Name</a></td>
+<td>The Name class provides the means to define any number of human readable  nam...</td>
+</tr>
+<tr>
+<td><a href="NameType/">NameType</a></td>
+<td>Type of name</td>
+</tr>
+<tr>
+<td><a href="NameTypeAuthority/">NameTypeAuthority</a></td>
+<td>Authority responsible for creation and management of names of a given type; t...</td>
+</tr>
+<tr>
+<td><a href="OperationalLimit/">OperationalLimit</a></td>
+<td>A value and normal value associated with a specific kind of limit</td>
+</tr>
+<tr>
+<td><a href="OperationalLimitSet/">OperationalLimitSet</a></td>
+<td>A set of limits associated with equipment</td>
+</tr>
+<tr>
+<td><a href="OperationalLimitType/">OperationalLimitType</a></td>
+<td>The operational meaning of a category of limits</td>
+</tr>
+<tr>
+<td><a href="PerCent/">PerCent</a></td>
+<td>Percentage on a defined base</td>
+</tr>
+<tr>
+<td><a href="PowerSystemResource/">PowerSystemResource</a></td>
+<td>A power system resource (PSR) can be an item of equipment such as a switch, a...</td>
+</tr>
+<tr>
+<td><a href="PowerTransformer/">PowerTransformer</a></td>
+<td>An electrical device consisting of  two or more coupled windings, with or wit...</td>
+</tr>
+<tr>
+<td><a href="PowerTransformerEnd/">PowerTransformerEnd</a></td>
+<td>A PowerTransformerEnd is associated with each Terminal of a PowerTransformer</td>
+</tr>
+<tr>
+<td><a href="ProtectedSwitch/">ProtectedSwitch</a></td>
+<td>A ProtectedSwitch is a switching device that can be operated by ProtectionEqu...</td>
+</tr>
+<tr>
+<td><a href="Reactance/">Reactance</a></td>
+<td>Reactance (imaginary part of impedance), at rated frequency</td>
+</tr>
+<tr>
+<td><a href="ReactivePower/">ReactivePower</a></td>
+<td>Product of RMS value of the voltage and the RMS value of the quadrature compo...</td>
+</tr>
+<tr>
+<td><a href="Resistance/">Resistance</a></td>
+<td>Resistance (real part of impedance)</td>
+</tr>
+<tr>
+<td><a href="Substation/">Substation</a></td>
+<td>A collection of equipment for purposes other than generation or utilization, ...</td>
+</tr>
+<tr>
+<td><a href="Susceptance/">Susceptance</a></td>
+<td>Imaginary part of admittance</td>
+</tr>
+<tr>
+<td><a href="Switch/">Switch</a></td>
+<td>A generic device designed to close, or open, or both, one or more electric ci...</td>
+</tr>
+<tr>
+<td><a href="Terminal/">Terminal</a></td>
+<td>An AC electrical connection point to a piece of conducting equipment</td>
+</tr>
+<tr>
+<td><a href="TransformerEnd/">TransformerEnd</a></td>
+<td>A conducting connection point of a power transformer</td>
+</tr>
+<tr>
+<td><a href="Voltage/">Voltage</a></td>
+<td>Electrical voltage, can be both AC and DC</td>
+</tr>
+<tr>
+<td><a href="VoltageLevel/">VoltageLevel</a></td>
+<td>A collection of equipment at one common system voltage forming a switchgear</td>
 </tr>
 </tbody>
 </table>
@@ -420,36 +592,256 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="age_in_years/">age_in_years</a></td>
-<td>Number of years since birth</td>
+<td><a href="aggregate/">aggregate</a></td>
+<td>The aggregate flag provides an alternative way of representing an aggregated ...</td>
 </tr>
 <tr>
-<td><a href="birth_date/">birth_date</a></td>
-<td>Date on which a person is born</td>
+<td><a href="alias_name/">alias_name</a></td>
+<td>The aliasName is free text human readable name of the object alternative to I...</td>
+</tr>
+<tr>
+<td><a href="b/">b</a></td>
+<td>Magnetizing branch susceptance (B mag)</td>
+</tr>
+<tr>
+<td><a href="base_voltage/">base_voltage</a></td>
+<td>Base voltage of this conducting equipment</td>
+</tr>
+<tr>
+<td><a href="bays/">bays</a></td>
+<td>The bays within this voltage level</td>
+</tr>
+<tr>
+<td><a href="bch/">bch</a></td>
+<td>Positive sequence shunt (charging) susceptance, uniformly distributed, of the...</td>
+</tr>
+<tr>
+<td><a href="conducting_equipment/">conducting_equipment</a></td>
+<td>All conducting equipment with this base voltage</td>
+</tr>
+<tr>
+<td><a href="connection_kind/">connection_kind</a></td>
+<td>Kind of connection</td>
+</tr>
+<tr>
+<td><a href="connectivity_node/">connectivity_node</a></td>
+<td>The connectivity node to which this terminal connects with zero impedance</td>
+</tr>
+<tr>
+<td><a href="connectivity_node_container/">connectivity_node_container</a></td>
+<td>Container of this connectivity node</td>
+</tr>
+<tr>
+<td><a href="connectivity_nodes/">connectivity_nodes</a></td>
+<td>Connectivity nodes which belong to this connectivity node container</td>
 </tr>
 <tr>
 <td><a href="description/">description</a></td>
-<td>A human-readable description for a thing</td>
+<td>The description is a free human readable text describing or naming the object</td>
 </tr>
 <tr>
-<td><a href="entries/">entries</a></td>
+<td><a href="direction/">direction</a></td>
+<td>The direction of the limit</td>
+</tr>
+<tr>
+<td><a href="end_number/">end_number</a></td>
+<td>Number for this transformer end, corresponding to the end's order in the powe...</td>
+</tr>
+<tr>
+<td><a href="energy_ident_code_eic/">energy_ident_code_eic</a></td>
+<td>The attribute is used for an exchange of the EIC code (Energy identification ...</td>
+</tr>
+<tr>
+<td><a href="equipment/">equipment</a></td>
+<td>The equipment to which the limit set applies</td>
+</tr>
+<tr>
+<td><a href="equipment_container/">equipment_container</a></td>
+<td>Container of this equipment</td>
+</tr>
+<tr>
+<td><a href="equipments/">equipments</a></td>
+<td>Contained equipment</td>
+</tr>
+<tr>
+<td><a href="g/">g</a></td>
+<td>Magnetizing branch conductance</td>
+</tr>
+<tr>
+<td><a href="gch/">gch</a></td>
+<td>Positive sequence shunt (charging) conductance, uniformly distributed, of the...</td>
+</tr>
+<tr>
+<td><a href="high_voltage_limit/">high_voltage_limit</a></td>
+<td>The bus bar's high voltage limit</td>
+</tr>
+<tr>
+<td><a href="identified_object/">identified_object</a></td>
+<td>Identified object that this name designates</td>
+</tr>
+<tr>
+<td><a href="is_infinite_duration/">is_infinite_duration</a></td>
+<td>Defines if the operational limit type has infinite duration</td>
+</tr>
+<tr>
+<td><a href="kind/">kind</a></td>
+<td>Types of limits defined in the ENTSO-E Operational Handbook Policy 3</td>
+</tr>
+<tr>
+<td><a href="length/">length</a></td>
+<td>Segment length for calculating line section capabilities</td>
+</tr>
+<tr>
+<td><a href="low_voltage_limit/">low_voltage_limit</a></td>
+<td>The bus bar's low voltage limit</td>
+</tr>
+<tr>
+<td><a href="m_rid/">m_rid</a></td>
+<td>Master resource identifier issued by a model authority</td>
+</tr>
+<tr>
+<td><a href="multiplier/">multiplier</a></td>
 <td></td>
 </tr>
 <tr>
-<td><a href="id/">id</a></td>
-<td>A unique identifier for a thing</td>
+<td><a href="name_type/">name_type</a></td>
+<td>Type of this name</td>
 </tr>
 <tr>
-<td><a href="name/">name</a></td>
-<td>A human-readable name for a thing</td>
+<td><a href="name_type_authority/">name_type_authority</a></td>
+<td>Authority responsible for managing names of this type</td>
 </tr>
 <tr>
-<td><a href="primary_email/">primary_email</a></td>
-<td>The main email address of a person</td>
+<td><a href="name_types/">name_types</a></td>
+<td>All name types managed by this authority</td>
 </tr>
 <tr>
-<td><a href="vital_status/">vital_status</a></td>
-<td>living or dead status</td>
+<td><a href="names/">names</a></td>
+<td>All names of this identified object</td>
+</tr>
+<tr>
+<td><a href="nominal_voltage/">nominal_voltage</a></td>
+<td>The power system resource's base voltage</td>
+</tr>
+<tr>
+<td><a href="normal_open/">normal_open</a></td>
+<td>The attribute is used in cases when no Measurement for the status value is pr...</td>
+</tr>
+<tr>
+<td><a href="normally_in_service/">normally_in_service</a></td>
+<td>Specifies the availability of the equipment under normal operating conditions</td>
+</tr>
+<tr>
+<td><a href="operational_limit/">operational_limit</a></td>
+<td>The operational limits associated with this type of limit</td>
+</tr>
+<tr>
+<td><a href="operational_limit_set/">operational_limit_set</a></td>
+<td>The operational limit sets associated with this equipment</td>
+</tr>
+<tr>
+<td><a href="operational_limit_type/">operational_limit_type</a></td>
+<td>The limit type associated with this limit</td>
+</tr>
+<tr>
+<td><a href="operational_limit_value/">operational_limit_value</a></td>
+<td>Values of equipment limits</td>
+</tr>
+<tr>
+<td><a href="pfixed/">pfixed</a></td>
+<td>Active power of the load that is a fixed quantity and does not vary as load g...</td>
+</tr>
+<tr>
+<td><a href="pfixed_pct/">pfixed_pct</a></td>
+<td>Fixed active power as a percentage of load group fixed active power</td>
+</tr>
+<tr>
+<td><a href="phases/">phases</a></td>
+<td>Represents the normal network phasing condition</td>
+</tr>
+<tr>
+<td><a href="power_transformer/">power_transformer</a></td>
+<td>The power transformer of this power transformer end</td>
+</tr>
+<tr>
+<td><a href="power_transformer_end/">power_transformer_end</a></td>
+<td>The ends of this power transformer</td>
+</tr>
+<tr>
+<td><a href="qfixed/">qfixed</a></td>
+<td>Reactive power of the load that is a fixed quantity and does not vary as load...</td>
+</tr>
+<tr>
+<td><a href="qfixed_pct/">qfixed_pct</a></td>
+<td>Fixed reactive power as a percentage of load group fixed reactive power</td>
+</tr>
+<tr>
+<td><a href="r/">r</a></td>
+<td>Positive sequence series resistance of the entire line section</td>
+</tr>
+<tr>
+<td><a href="rated_current/">rated_current</a></td>
+<td>The maximum continuous current carrying capacity in amps governed by the devi...</td>
+</tr>
+<tr>
+<td><a href="rated_s/">rated_s</a></td>
+<td>Normal apparent power rating</td>
+</tr>
+<tr>
+<td><a href="rated_u/">rated_u</a></td>
+<td>Rated voltage: phase-phase for three-phase windings, and either phase-phase o...</td>
+</tr>
+<tr>
+<td><a href="retained/">retained</a></td>
+<td>Branch is retained in the topological solution</td>
+</tr>
+<tr>
+<td><a href="sequence_number/">sequence_number</a></td>
+<td>The orientation of the terminal connections for a multiple terminal conductin...</td>
+</tr>
+<tr>
+<td><a href="short_name/">short_name</a></td>
+<td>The attribute is used for an exchange of a human readable short name with len...</td>
+</tr>
+<tr>
+<td><a href="substation/">substation</a></td>
+<td>The substation of the voltage level</td>
+</tr>
+<tr>
+<td><a href="terminal/">terminal</a></td>
+<td>Terminal of the power transformer to which this transformer end belongs</td>
+</tr>
+<tr>
+<td><a href="terminals/">terminals</a></td>
+<td>Conducting equipment have terminals that may be connected to other conducting...</td>
+</tr>
+<tr>
+<td><a href="transformer_end/">transformer_end</a></td>
+<td>All transformer ends connected at this terminal</td>
+</tr>
+<tr>
+<td><a href="transformer_ends/">transformer_ends</a></td>
+<td>Transformer ends at the base voltage</td>
+</tr>
+<tr>
+<td><a href="unit/">unit</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="value/">value</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="voltage_level/">voltage_level</a></td>
+<td>The voltage levels having this base voltage</td>
+</tr>
+<tr>
+<td><a href="voltage_levels/">voltage_levels</a></td>
+<td>The voltage levels within this substation</td>
+</tr>
+<tr>
+<td><a href="x/">x</a></td>
+<td>Positive sequence series reactance of the entire line section</td>
 </tr>
 </tbody>
 </table>
@@ -463,7 +855,27 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="PersonStatus/">PersonStatus</a></td>
+<td><a href="LimitKind/">LimitKind</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="OperationalLimitDirectionKind/">OperationalLimitDirectionKind</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="PhaseCode/">PhaseCode</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="UnitMultiplier/">UnitMultiplier</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="UnitSymbol/">UnitSymbol</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="WindingConnection/">WindingConnection</a></td>
 <td></td>
 </tr>
 </tbody>
