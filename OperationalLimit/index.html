@@ -222,6 +222,17 @@
       IdentifiedObject &lt;|-- OperationalLimit
         click IdentifiedObject href "../IdentifiedObject"
 
+
+      OperationalLimit &lt;|-- ActivePowerLimit
+        click ActivePowerLimit href "../ActivePowerLimit"
+      OperationalLimit &lt;|-- ApparentPowerLimit
+        click ApparentPowerLimit href "../ApparentPowerLimit"
+      OperationalLimit &lt;|-- CurrentLimit
+        click CurrentLimit href "../CurrentLimit"
+      OperationalLimit &lt;|-- VoltageLimit
+        click VoltageLimit href "../VoltageLimit"
+
+
       OperationalLimit : description
 
       OperationalLimit : energy_ident_code_eic
@@ -261,7 +272,13 @@
 <h2 id="inheritance">Inheritance</h2>
 <ul>
 <li><a href="../IdentifiedObject/">IdentifiedObject</a><ul>
-<li><strong>OperationalLimit</strong></li>
+<li><strong>OperationalLimit</strong><ul>
+<li><a href="../ActivePowerLimit/">ActivePowerLimit</a></li>
+<li><a href="../ApparentPowerLimit/">ApparentPowerLimit</a></li>
+<li><a href="../CurrentLimit/">CurrentLimit</a></li>
+<li><a href="../VoltageLimit/">VoltageLimit</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>

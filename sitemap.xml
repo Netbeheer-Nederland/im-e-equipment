@@ -21,7 +21,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://Netbeheer-Nederland.github.io/im-e-equipment/ActivePowerLimit/</loc>
+         <lastmod>2024-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://Netbeheer-Nederland.github.io/im-e-equipment/ApparentPower/</loc>
+         <lastmod>2024-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Netbeheer-Nederland.github.io/im-e-equipment/ApparentPowerLimit/</loc>
          <lastmod>2024-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -87,6 +97,11 @@
     </url>
     <url>
          <loc>https://Netbeheer-Nederland.github.io/im-e-equipment/CurrentFlow/</loc>
+         <lastmod>2024-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Netbeheer-Nederland.github.io/im-e-equipment/CurrentLimit/</loc>
          <lastmod>2024-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -361,6 +376,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://Netbeheer-Nederland.github.io/im-e-equipment/VoltageLimit/</loc>
+         <lastmod>2024-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://Netbeheer-Nederland.github.io/im-e-equipment/WindingConnection/</loc>
          <lastmod>2024-07-02</lastmod>
          <changefreq>daily</changefreq>
@@ -537,6 +557,11 @@
     </url>
     <url>
          <loc>https://Netbeheer-Nederland.github.io/im-e-equipment/normal_open/</loc>
+         <lastmod>2024-07-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Netbeheer-Nederland.github.io/im-e-equipment/normal_value/</loc>
          <lastmod>2024-07-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
