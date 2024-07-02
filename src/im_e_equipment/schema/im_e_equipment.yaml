@@ -1,5 +1,122 @@
 name: EquipmentProfile
-description: This vocabulary describes the equipment profile from NBNLES.
+description: |-
+  This vocabulary describes the equipment profile from NBNLES.
+
+  ```mermaid
+  classDiagram
+  direction RL
+
+  class Substation {
+      VoltageLevel voltage_levels
+      Equipment equipments
+      ConnectivityNode connectivity_nodes
+      string description
+      string energy_ident_code_eic
+      string m_rid
+      string short_name
+      Name names
+  }
+  class Equipment {
+      boolean aggregate
+      boolean normally_in_service
+      EquipmentContainer equipment_container
+      OperationalLimitSet operational_limit_set
+      string description
+      string energy_ident_code_eic
+      string m_rid
+      string short_name
+      Name names
+  }
+  class EquipmentContainer {
+      Equipment equipments
+      ConnectivityNode connectivity_nodes
+      string description
+      string energy_ident_code_eic
+      string m_rid
+      string short_name
+      Name names
+  }
+  class ConductingEquipment {
+      BaseVoltage base_voltage
+      Terminal terminals
+      boolean aggregate
+      boolean normally_in_service
+      EquipmentContainer equipment_container
+      OperationalLimitSet operational_limit_set
+      string description
+      string energy_ident_code_eic
+      string m_rid
+      string short_name
+      Name names
+  }
+  class VoltageLevel {
+      BaseVoltage base_voltage
+      Bay bays
+      Substation substation
+      Voltage high_voltage_limit
+      Voltage low_voltage_limit
+      Equipment equipments
+      ConnectivityNode connectivity_nodes
+      string description
+      string energy_ident_code_eic
+      string m_rid
+      string short_name
+      Name names
+  }
+  class Bay {
+      VoltageLevel voltage_level
+      Equipment equipments
+      ConnectivityNode connectivity_nodes
+      string description
+      string energy_ident_code_eic
+      string m_rid
+      string short_name
+      Name names
+  }
+  class ConnectivityNode {
+      Terminal terminals
+      ConnectivityNodeContainer connectivity_node_container
+      string description
+      string energy_ident_code_eic
+      string m_rid
+      string short_name
+      Name names
+  }
+  class ConnectivityNodeContainer {
+      ConnectivityNode connectivity_nodes
+      string description
+      string energy_ident_code_eic
+      string m_rid
+      string short_name
+      Name names
+  }
+  class Terminal {
+      ConductingEquipment conducting_equipment
+      ConnectivityNode connectivity_node
+      PhaseCode phases
+      TransformerEnd transformer_end
+      integer sequence_number
+      OperationalLimitSet operational_limit_set
+      string description
+      string energy_ident_code_eic
+      string m_rid
+      string short_name
+      Name names
+  }
+
+  Substation --|> EquipmentContainer
+  EquipmentContainer --|> ConnectivityNodeContainer
+  ConductingEquipment --|> Equipment
+  VoltageLevel --|> EquipmentContainer
+  Bay --|> EquipmentContainer
+  Substation --> VoltageLevel : voltage_levels
+  Equipment --> EquipmentContainer : equipment_container
+  ConductingEquipment --> EquipmentContainer : equipment_container
+  Bay --> VoltageLevel : voltage_level
+  ConnectivityNode --> ConnectivityNodeContainer : connectivity_node_container
+  Terminal --> ConductingEquipment : conducting_equipment
+  Terminal --> ConnectivityNode : connectivity_node
+  ```
 title: Equipment Vocabulary
 id: http://data.netbeheernederland.nl/im-e-equipment/version#1.0.0
 imports:
