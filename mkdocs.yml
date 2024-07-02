@@ -16,6 +16,7 @@ nav:
   # - Home: home.md
   - Index: index.md
   - Conceptual Model: about.md
+  - Copyright: copyright.md
 markdown_extensions:
   - pymdownx.betterem
   - pymdownx.superfences:
