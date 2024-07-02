@@ -1,6 +1,8 @@
 name: EquipmentProfile
 description: |-
-  This vocabulary describes the equipment profile from NBNLES.
+  This vocabulary describes the equipment profile from NBNLES. The Equipment
+  profile describes basic equipment and connectivity and provides the
+  foundation on which the data of the other profiles are layered.
 
   ```mermaid
   classDiagram
