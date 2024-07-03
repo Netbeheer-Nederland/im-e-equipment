@@ -13,6 +13,7 @@ description: |-
       ConnectivityNode connectivity_nodes
       string description
       string energy_ident_code_eic
+      string european_article_number_ean
       string m_rid
       string short_name
       Name names
@@ -24,6 +25,7 @@ description: |-
       OperationalLimitSet operational_limit_set
       string description
       string energy_ident_code_eic
+      string european_article_number_ean
       string m_rid
       string short_name
       Name names
@@ -33,6 +35,7 @@ description: |-
       ConnectivityNode connectivity_nodes
       string description
       string energy_ident_code_eic
+      string european_article_number_ean
       string m_rid
       string short_name
       Name names
@@ -46,6 +49,7 @@ description: |-
       OperationalLimitSet operational_limit_set
       string description
       string energy_ident_code_eic
+      string european_article_number_ean
       string m_rid
       string short_name
       Name names
@@ -60,6 +64,7 @@ description: |-
       ConnectivityNode connectivity_nodes
       string description
       string energy_ident_code_eic
+      string european_article_number_ean
       string m_rid
       string short_name
       Name names
@@ -70,6 +75,7 @@ description: |-
       ConnectivityNode connectivity_nodes
       string description
       string energy_ident_code_eic
+      string european_article_number_ean
       string m_rid
       string short_name
       Name names
@@ -79,6 +85,7 @@ description: |-
       ConnectivityNodeContainer connectivity_node_container
       string description
       string energy_ident_code_eic
+      string european_article_number_ean
       string m_rid
       string short_name
       Name names
@@ -87,6 +94,7 @@ description: |-
       ConnectivityNode connectivity_nodes
       string description
       string energy_ident_code_eic
+      string european_article_number_ean
       string m_rid
       string short_name
       Name names
@@ -100,6 +108,7 @@ description: |-
       OperationalLimitSet operational_limit_set
       string description
       string energy_ident_code_eic
+      string european_article_number_ean
       string m_rid
       string short_name
       Name names
