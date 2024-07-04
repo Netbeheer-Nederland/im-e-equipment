@@ -1,6 +1,6 @@
 # Copyright statement
 
-This information model is based on part on the [Common Grid Model Exchange
+This information model is based in part on the [Common Grid Model Exchange
 Standard](https://www.entsoe.eu/data/cim/cim-for-grid-models-exchange/),
 published by the ENTSO-E.
 
