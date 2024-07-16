@@ -121,7 +121,7 @@ description: |-
   Substation --> VoltageLevel : voltage_levels
   Equipment --> EquipmentContainer : equipment_container
   ConductingEquipment --> EquipmentContainer : equipment_container
-  Bay --> VoltageLevel : voltage_level
+  VoltageLevel --> Bay : bays
   ConnectivityNode --> ConnectivityNodeContainer : connectivity_node_container
   Terminal --> ConductingEquipment : conducting_equipment
   Terminal --> ConnectivityNode : connectivity_node
