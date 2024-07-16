@@ -341,7 +341,7 @@ Bay --|&gt; EquipmentContainer
 Substation --&gt; VoltageLevel : voltage_levels
 Equipment --&gt; EquipmentContainer : equipment_container
 ConductingEquipment --&gt; EquipmentContainer : equipment_container
-Bay --&gt; VoltageLevel : voltage_level
+VoltageLevel --&gt; Bay : bays
 ConnectivityNode --&gt; ConnectivityNodeContainer : connectivity_node_container
 Terminal --&gt; ConductingEquipment : conducting_equipment
 Terminal --&gt; ConnectivityNode : connectivity_node</code></pre>
